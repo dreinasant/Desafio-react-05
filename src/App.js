@@ -49,7 +49,7 @@ class App extends Component{
     return(
       <div>
         <h1>Shorts Feminino</h1>
-        <img src={Mulher} alt="mulher"/>
+        <img src={Mulher} class="box-intro" alt="mulher"/>
         {this.state.shortsFeminino.map((item) => (
           <div className="intro">
               <p>Marca: {item.marca}</p>

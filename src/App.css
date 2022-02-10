@@ -21,10 +21,18 @@ h1{
   padding: 1vh;
   background-color:rgb(235, 36, 36);
   width: 25%;
-  border:1px solid purple;
+  border:2px solid purple;
 }
 p:hover{
   cursor: pointer;
   color: white;
   font-weight: 600;
 }
+.box-intro{
+  width: 30vh;
+  -webkit-animation: 3s linear 0s infinite alternate move_eye;
+  animation: 4s linear 0s infinite alternate move_eye;
+}
+
+@-webkit-keyframes move_eye { from { margin-left: -30%; } to { margin-left: 20%; }  }
+@keyframes move_eye { from { margin-left: -5%; } to { margin-left: 86%; }  }
